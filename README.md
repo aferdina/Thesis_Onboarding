@@ -119,28 +119,28 @@ A brief summary for MacOs is as follows.
    source .venv/bin/active
    ```
 ### PyTorch
-[PyTorch](https://pytorch.org) is an open source machine learning framework that accelerates the path from research prototyping to production deployment. Eine große Anzahl an Algorithmen des Reinforcement Learnings verwenden die Library. Daher ist ein sicherer Umgang mit der Library essentiell. 
-Zunächst sollte die Einführung
-[Einführung](https://pytorch.org/tutorials/beginner/pytorch_with_examples.html)  bearbeitet werden. 
+[PyTorch](https://pytorch.org) is an open source machine learning framework that accelerates the path from research prototyping to production deployment. A large number of reinforcement learning algorithms use the library. Therefore, a safe handling of the library is essential. 
+First of all the 
+[Introduction](https://pytorch.org/tutorials/beginner/pytorch_with_examples.html) should be worked on. 
 ***
 **Challenges**
-- [ ] Schreibe eine eigene Aktivierungsfunktion (for example: [sigmoid function](https://de.wikipedia.org/wiki/Sigmoidfunktion))
-- [ ] Verwende ein neuronales Netz für das [Klassifizierungsproblem](https://www.kaggle.com/code/dansbecker/classification/notebook). 
+- [ ] Write a costum activation function (autograd function) (for example: [sigmoid function](https://de.wikipedia.org/wiki/Sigmoidfunktion))
+- [ ] Use a neural network to optimize the [classification problem](https://www.kaggle.com/code/dansbecker/classification/notebook). 
 ***
 ### Tensorboard
-Für die Trainingsanalyse von neuronalen Netzen werden sogenannte [Tensorboards](https://www.tensorflow.org/tensorboard) verwendet. Das Tool besitzt die folgenden Features:
-- Verfolgen und Visualisieren von Metriken wie Verlust und Genauigkeit
-- Visualisierung des Modellgraphen (Ops und Layer)
-- Anzeigen von Histogrammen von Gewichtungen, Verzerrungen oder anderen Tensoren, die sich im Laufe der Zeit ändern
-- Projizieren von Einbettungen in einen niedrigeren dimensionalen Raum
-- Anzeigen von Bildern, Text und Audiodaten
-- Profilerstellung von TensorFlow-Programmen
+So-called [tensorboards](https://www.tensorflow.org/tensorboard) are used for training analysis of neural networks. The tool has the following features:
+- Track and visualize metrics such as loss and accuracy
+- Visualization of the model graph (ops and layer)
+- View histograms of weights, biases, or other tensors that change over time
+- Projecting embeddings into a lower dimensional space
+- Display images, text and audio data
+- Profiling TensorFlow programs
 
-Eine Einführung zu Tensorbaord befindet sich [hier](https://www.tensorflow.org/tensorboard/get_started) (time requiered: 30min). 
+An introduction to tensorboard is [here](https://www.tensorflow.org/tensorboard/get_started) (time requiered: 30min). 
 ***
 **Challenge**
-- [ ] Arbeite die Einführung durch. 
-- [ ] Schreibe ein Tensorbaord für das PyTorch [Beispiel](https://pytorch.org/tutorials/beginner/pytorch_with_examples.html).
+- [ ] Work through the introduction 
+- [ ] Write a tensorboard for the [example](https://pytorch.org/tutorials/beginner/pytorch_with_examples.html).
 *** 
 ## Introduction to Visual Studio Code
 The use of Visual Studio Code has already been addressed in a [section](#git-in-visual-studio-code-vsc) on Git(-hub). Primarily, Visual Studio Code is used as an editor for programming languages such as Python, C++ or R. However, the editor has other useful features and shortcuts, which will be discussed in this section. First, we will look at the installation of Visual Studio Code.
@@ -237,12 +237,13 @@ A detailed description of the individual points can be found [here](https://www.
 One of the main reasons for using Git(-hub) is that it greatly simplifies the collaboration of multiple developers on a project. One hurdle, however, is files that exist only to configure a single developer's project environment. These are typically created by development environments like Xcode or Android Studio, and they store things like the last file opened or the configuration of individual panels (subwindows) in the development environment. So that these settings are not taken over by other developers but each can keep his own settings, there is the possibility in Git to exclude certain files from commits in general.
 Ignoring files takes place in Git through a simple listing in a text file called ```.gitignore```.
 For a python project the ```.gitignore``` file must include [these](https://stackoverflow.com/questions/3719243/best-practices-for-adding-gitignore-file-for-python-projects) items. Important: Depending on the operating system (Linux, MacOS, Windows) the file (contents of the file) looks different. 
+
 # Writing a thesis
 ## Latex
 The thesis will be written in [Latex](https://de.wikipedia.org/wiki/LaTeX). [Visual Studio Code](#useful-visual-studio-code-extensions) is recommended as the editor for Latex. An introduction to Latex is [here](https://www.youtube.com/watch?v=-HvRvBjBAvg). Using macros and including libraries, the format of a Latex file can be customized. [Here](https://www.youtube.com/watch?v=331YxgOJUGw) are a few examples. 
 ***
 **Challenge**
-- [ ] Eröffne mit Freunden ein Github Repository zu einer Vorlesung und verwendet Latex gemeinsam, um schwierige Beweise der Vorlesung zu texen.   
+- [ ] Open a Github repository of a lecture with friends and use Latex together to text difficult proofs of the lecture.   
 ***
 ## Stil 
 # Technical Contents
