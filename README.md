@@ -7,7 +7,7 @@ In this document are contents to prepare for a thesis in the topic area of machi
     - [Installing Python](#installing-python)
     - [Learning Python](#learning-python)
     - [DocStrings](#docstrings)
-    - [Creating a virtual Environment](#creating-a-virtual-environment)
+    - [Creating a virtual environment](#creating-a-virtual-environment)
     - [PyTorch](#pytorch)
     - [Tensorboard](#tensorboard)
   - [Introduction to Visual Studio Code](#introduction-to-visual-studio-code)
@@ -105,7 +105,7 @@ In order for other project members to understand written code, functions and fil
 **Challenge**
 - [ ] Write your first DocStrings to a Python Project. 
 ***
-### Creating a virtual Environment
+### Creating a virtual environment
 When creating projects, external [libraries](https://www.geeksforgeeks.org/libraries-in-python/) are usually imported into Python. These files can be several Mb's in size and should not be pushed into a Github repository, for example. In addition, version conflicts can cause problems between different Python projects if the same libraries are loaded. For this reason, a virtual environment must be created that contains the packages and configurations for a given project. In Visual Studio Code this works [like this](https://code.visualstudio.com/docs/python/environments).
 A brief summary for MacOs is as follows.
 1. Open a terminal within a project in Visual Studio Code
@@ -248,11 +248,11 @@ The thesis will be written in [Latex](https://de.wikipedia.org/wiki/LaTeX). [Vis
 ## Stil 
 # Technical Contents
 In this chapter interesting topics from machine learning are presented. 
-## Invalid Action Masking
-## Q-Learning
-## Temporal-Difference Learning
+## [Invalid Action Masking](https://arxiv.org/abs/2006.14171) 
+## [Q-Learning](https://www.researchgate.net/publication/220344150_Technical_Note_Q-Learning)
+## [Temporal-Difference Learning](https://link.springer.com/article/10.1007/BF00115009)
 ## Decision Transformer
-## Actor Critic Methods
+## [Actor Critic Methods](Papers/Actor_Critic/Natural_Actor_critic.pdf)
 ## Markov Games
 ## Variance Minimization Methods 
 ## Upside Down Reinforcement Learning 
