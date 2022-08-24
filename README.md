@@ -23,16 +23,6 @@ In this document are contents to prepare for a thesis in the topic area of machi
 - [Writing a thesis](#writing-a-thesis)
   - [Latex](#latex)
   - [Stil](#stil)
-- [Technical Contents](#technical-contents)
-  - [Invalid Action Masking](#invalid-action-masking)
-  - [Q-Learning](#q-learning)
-  - [Temporal-Difference Learning](#temporal-difference-learning)
-  - [Decision Transformer](#decision-transformer)
-  - [Actor Critic Methods](#actor-critic-methods)
-  - [Markov Games](#markov-games)
-  - [Variance Minimization Methods](#variance-minimization-methods)
-  - [Upside Down Reinforcement Learning](#upside-down-reinforcement-learning)
-- [Example Projects](#example-projects)
 
 # Formalities
 In this section there is a list of formalities for writing a thesis. 
@@ -58,29 +48,29 @@ This section addresses two questions.
 The first step is to learn a secure handling of Basic Python. 
 This includes the following points:
 1. Numeric data types
-   1. `int` & `long`
+   <!-- 1. `int` & `long`
    2. `float`
    3. `complex`
-   4. `bool`
+   4. `bool` -->
 2. Arithmetic operators
-   1. `x+y`
+   <!-- 1. `x+y`
    2. `x-y`
    3. `x*y`
    4. `x/y`
    5. `x**y`
    6. `x//y`
-   7. `-x`
+   7. `-x` -->
 3. Logical operators
-   1. `==`
+   <!-- 1. `==`
    2. `>=`
    3. `<=`
    4. `!=`
    5. `<`
-   6. `>`
+   6. `>` -->
 4. Sequential data types
-   1. lists `list`
+   <!-- 1. lists `list`
    2. strings `str`
-   3. tuples `tupel`
+   3. tuples `tupel` -->
 5. dictionaries `dict`
 6. sets `set`
 7. modules
@@ -138,7 +128,7 @@ So-called [tensorboards](https://www.tensorflow.org/tensorboard) are used for tr
 
 An introduction to tensorboard is [here](https://www.tensorflow.org/tensorboard/get_started) (time requiered: 30min). 
 ***
-**Challenge**
+**Challenges**
 - [ ] Work through the introduction 
 - [ ] Write a tensorboard for the [example](https://pytorch.org/tutorials/beginner/pytorch_with_examples.html).
 *** 
@@ -246,7 +236,7 @@ The thesis will be written in [Latex](https://de.wikipedia.org/wiki/LaTeX). [Vis
 - [ ] Open a Github repository of a lecture with friends and use Latex together to text difficult proofs of the lecture.   
 ***
 ## Stil 
-# Technical Contents
+<!-- # Technical Contents
 In this chapter interesting topics from machine learning are presented. 
 ## [Invalid Action Masking](https://arxiv.org/abs/2006.14171) 
 ## [Q-Learning](https://www.researchgate.net/publication/220344150_Technical_Note_Q-Learning)
@@ -256,7 +246,7 @@ In this chapter interesting topics from machine learning are presented.
 ## Markov Games
 ## Variance Minimization Methods 
 ## Upside Down Reinforcement Learning 
-# Example Projects 
+# Example Projects  -->
 
 
 
